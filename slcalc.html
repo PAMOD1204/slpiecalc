@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible"  
+         content="IE=edge" />
+        <meta name="viewport"
+         content"width=device-width,initial-scale=1.0"/>
+        <style>
+            .neonText{color:#2c1a1a;}
+            .hi{text-align:center;font-family:fixed;}
+            .y{text-align:center;}
+            #footer{background-color:#cdf13c7e#d0f53da4 ;
+                    color:#2c1a1a;
+                    clear:both;
+                    text-align:center;
+                    padding:5px;   } 
+        </style>
+        <title>Calc</title>   
+    </head>
+    <body bgcolor=#cdf13c7e#d0f53da4 > 
+       <h1 class="neonText , hi"><u>සමාන්තර ශේඩි</u></h1>
+       <font class="neonText">Enter first number: 
+       </font><input type="number" class="x" id="txtf1"/>
+       <br>
+       <font class="neonText">Enter second number:
+       </font><input type="number" class="x" id="txtf2"/>
+       <br>
+       <font class="neonText">Enter what number do
+        you want?</font><input type="number" class="x"
+        id="x" />
+       <br/>
+       <br>
+       <br>
+       <h2> <input type="botton"
+        value="Click for Answer"
+        onclick="fun1()"> </h2>
+       <div id="res" class="neonText"></div>
+       <script>
+          function fun1()
+           { var     
+    n1=parseInt(document.getElementById("txtf1").value);
+    var    n2=parseInt(document.getElementById("txtf2").value);
+    var a=parseInt(document.getElementById("x").value);
+    var t1= n2-n1;
+    var tot = n1 + (a-1) * t1;
+    document.getElementById("res").innerHTML=tot;
+            } 
+       </script>
+       <br>
+       <br>
+       <br>
+       <div id="footer">
+       <a href="pornhub.com">
+           <font class="y">
+               <h6>
+               How to use this site?(click me)
+               </h6>
+           </font>
+       </a>  
+       </div>
+    </body>
+</html>
